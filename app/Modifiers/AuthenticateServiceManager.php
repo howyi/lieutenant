@@ -3,7 +3,7 @@
 namespace App\Modifiers;
 
 use App\Enums\AuthenticateServiceType;
-use App\Models\User\AuthenticateService;
+use App\Models\AuthenticateService;
 use Doctrine\ORM\EntityManager;
 use Illuminate\Http\Request;
 use Laravel\Socialite\Two\AbstractProvider;

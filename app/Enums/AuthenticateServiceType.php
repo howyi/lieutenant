@@ -10,7 +10,7 @@ class AuthenticateServiceType extends AbstractEnum
         'GOOGLE'   => GoogleProvider::class,
         'GITHUB'   => GithubProvider::class,
         'SLACK'    => \Mpociot\Socialite\Slack\Provider::class,
-        'CHATWORK' => GithubProvider::class,
+        // 'CHATWORK' => ChatWorkProvider::class,
     ];
 
     public const SCOPES = [

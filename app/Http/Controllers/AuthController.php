@@ -60,7 +60,7 @@ class AuthController extends Controller
      */
     public function redirect(Request $request, string $service)
     {
-        dump(auth());
+	    dump(\Auth::user());
         return $this
             ->authenticateServiceManager
             ->getDriver($request, $service)
